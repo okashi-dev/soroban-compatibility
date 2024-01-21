@@ -30,3 +30,5 @@
 | ✅ | ✅ | `scSpecTypeTuple` ||
 | ✅ | ✅ | `scSpecTypeBytesN` ||
 | ✅ | ✅ | `scSpecTypeUdt` | Implemented `struct`, `union`, and `enum` variants |
+
+Verify using this [Okashi](https://trunk.okashi.dev/playground/astrvtznqohfswtehpmwuxdxncaj) project.
