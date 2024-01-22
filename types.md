@@ -2,7 +2,6 @@
 
 ## Input
 
-
 | Read | Write | Type | Comment |
 | --- | --- | --- | --- |
 | 🟨 | ✅ | `scSpecTypeVal` | Working on it. |
@@ -29,6 +28,8 @@
 | ✅ | ✅ | `scSpecTypeMap` ||
 | ✅ | ✅ | `scSpecTypeTuple` ||
 | ✅ | ✅ | `scSpecTypeBytesN` ||
-| ✅ | ✅ | `scSpecTypeUdt` | Implemented `struct`, `union`, and `enum` variants |
+| ✅ | ✅ | `scSpecTypeUdt` | `scSpecEntryUdtStructV0` |
+| ✅ | ✅ | `scSpecTypeUdt` | `scSpecEntryUdtUnionV0` |
+| ✅ | ✅ | `scSpecTypeUdt` | `scSpecEntryUdtEnumV0` |
 
 Verify using this [Okashi](https://trunk.okashi.dev/playground/astrvtznqohfswtehpmwuxdxncaj) project.
