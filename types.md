@@ -1,6 +1,8 @@
 # Support for Soroban Types
 
-## Input
+There are two distinct types of environments for contracts on Okashi - the *simulated environment* which executes contracts in the browser, and the *network environment* which executes contracts on Futurenet or Testnet.
+
+## Simulated Environment
 
 | Read | Write | Type | Comment |
 | --- | --- | --- | --- |
@@ -31,5 +33,29 @@
 | ✅ | ✅ | `scSpecTypeUdt` | `scSpecEntryUdtStructV0` |
 | ✅ | ✅ | `scSpecTypeUdt` | `scSpecEntryUdtUnionV0` |
 | ✅ | ✅ | `scSpecTypeUdt` | `scSpecEntryUdtEnumV0` |
+
+## Network Environment
+
+| Read | Write | Type | Comment |
+| --- | --- | --- | --- |
+| ✅ | ✅ | `scvBool` ||
+| 🟥 | ✅ | `scvVoid` | Don't see a function ever having a void argument. |
+| 🟥 | 🟥 | `scvError` | Working on it by parsing `Diagnostic Event` from the response. |
+| ✅ | ✅ | `scvU32` ||
+| ✅ | ✅ | `scvI32` ||
+| ✅ | ✅ | `scvU64` ||
+| ✅ | ✅ | `scvI64` ||
+| ✅ | ✅ | `scvTimepoint` ||
+| ✅ | ✅ | `scvDuration` ||
+| ✅ | ✅ | `scvU128` ||
+| ✅ | ✅ | `scvI128` ||
+| ✅ | ✅ | `scvU256` ||
+| ✅ | ✅ | `scvI256` ||
+| ✅ | ✅ | `scvBytes` ||
+| ✅ | ✅ | `scvString` ||
+| ✅ | ✅ | `scvSymbol` ||
+| ✅ | ✅ | `scvVec` ||
+| ✅ | ✅ | `scvMap` ||
+| ✅ | ✅ | `scvAddress` ||
 
 Verify using this [Okashi](https://trunk.okashi.dev/playground/astrvtznqohfswtehpmwuxdxncaj) project.
