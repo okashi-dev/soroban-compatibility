@@ -8,8 +8,8 @@ There are two distinct types of environments for contracts on Okashi - the *simu
 | --- | --- | --- | --- |
 | 🟨 | ✅ | `scSpecTypeVal` | Working on it. |
 | ✅ | ✅ | `scSpecTypeBool` ||
-| 🟥 | ✅ | `scSpecTypeVoid` | Don't see a function ever having a void argument. |
-| 🟥 | ✅ | `scSpecTypeError` | Don't see how this could ever be an argument. |
+| 🟥 | ✅ | `scSpecTypeVoid` | I reported a bug related to how `()` is encoded |
+| 🟥 | ✅ | `scSpecTypeError` | This is because of a bug potentially, needs more research. |
 | ✅ | ✅ | `scSpecTypeU32` ||
 | ✅ | ✅ | `scSpecTypeI32` ||
 | ✅ | ✅ | `scSpecTypeU64` ||
