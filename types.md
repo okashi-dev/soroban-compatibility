@@ -8,7 +8,7 @@ There are two distinct types of environments for contracts on Okashi - the *simu
 | --- | --- | --- | --- |
 | 🟨 | ✅ | `scSpecTypeVal` | Working on it. |
 | ✅ | ✅ | `scSpecTypeBool` ||
-| 🟥 | ✅ | `scSpecTypeVoid` | I reported a bug related to how `()` is encoded |
+| 🟥 | ✅ | `scSpecTypeVoid` | I reported a [bug](https://github.com/stellar/rs-soroban-sdk/issues/1215) related to how `()` is encoded. |
 | 🟥 | ✅ | `scSpecTypeError` | This is because of a bug potentially, needs more research. |
 | ✅ | ✅ | `scSpecTypeU32` ||
 | ✅ | ✅ | `scSpecTypeI32` ||
